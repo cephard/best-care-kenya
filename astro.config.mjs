@@ -9,11 +9,6 @@ export default defineConfig({
     plugins: [tailwindcss()]
   },
   site: "https://bestcarekenya.co.ke",
-  base: "/best-care-kenya/",
-  outDir: "dist",
-  build: {
-    assets: "_astro", // Default setting, ensures correct asset path
-  }
+  trailingSlash: "never",
 });
-
 
