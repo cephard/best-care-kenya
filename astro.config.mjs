@@ -3,12 +3,13 @@ import { defineConfig } from 'astro/config';
 
 import tailwindcss from '@tailwindcss/vite';
 
-// https://astro.build/config
 export default defineConfig({
+  build: {
+    assetsPrefix: './',
+  },
   vite: {
-    plugins: [tailwindcss()]
+    plugins: [tailwindcss()],
   },
   site: "https://bestcarekenya.co.ke",
   trailingSlash: "never",
 });
-
