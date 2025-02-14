@@ -9,5 +9,6 @@ export default defineConfig({
     plugins: [tailwindcss()]
   },
   site: "https://site.bestcarekenya.co.ke/",
-  base: "/best-care-kenya/",
+  base: "/best-care-kenya",
 });
+
