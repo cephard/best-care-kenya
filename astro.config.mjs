@@ -12,4 +12,5 @@ export default defineConfig({
   },
   site: "https://bestcarekenya.co.ke",
   trailingSlash: "never",
+  base: "best-care-kenya",
 });
