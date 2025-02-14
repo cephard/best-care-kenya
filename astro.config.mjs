@@ -8,7 +8,7 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()]
   },
-  site: "https://bestcarekenya.co.ke/",
+  site: "https://cephard.github.io/",
   base: "/best-care-kenya",
 });
 
